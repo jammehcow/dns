@@ -61,7 +61,7 @@ resource "cloudflare_record" "terraform_managed_resource_b0b16d7663a3427a08c6bc8
 }
 
 resource "cloudflare_record" "terraform_managed_resource_885858db9a65132d7fb6909a3a0b188d" {
-  name    = "tst0.mc"
+  name    = "test.retmc"
   proxied = false
   ttl     = 1
   type    = "A"
