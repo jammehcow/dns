@@ -105,15 +105,6 @@ resource "cloudflare_record" "terraform_managed_resource_1af43c87669ff67195fcaaf
   zone_id = var.zone_id
 }
 
-resource "cloudflare_record" "terraform_managed_resource_1b244cdb7c848d8c83afb84ed09ae44f" {
-  name    = "bucket"
-  proxied = true
-  ttl     = 1
-  type    = "CNAME"
-  value   = "www.jammehcow-files-static.us-east-1.linodeobjects.com"
-  zone_id = var.zone_id
-}
-
 resource "cloudflare_record" "terraform_managed_resource_34cd2fd3e091eaa41b4900a8e7017fe9" {
   name    = "cdn"
   proxied = true
