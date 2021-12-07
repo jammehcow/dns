@@ -56,7 +56,7 @@ resource "cloudflare_record" "terraform_managed_resource_b0b16d7663a3427a08c6bc8
   proxied = true
   ttl     = 1
   type    = "A"
-  value   = "172.105.179.229"
+  value   = "45.77.191.40"
   zone_id = var.zone_id
 }
 
