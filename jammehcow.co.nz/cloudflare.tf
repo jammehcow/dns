@@ -15,15 +15,6 @@ variable "zone_id" {
   default = "029b51bcc15f93e0effeac880578bde0"
 }
 
-resource "cloudflare_record" "terraform_managed_resource_4de05fe9ca2e722ae5708917ab9d2abf" {
-  name    = "files"
-  proxied = true
-  ttl     = 1
-  type    = "A"
-  value   = "180.148.97.150"
-  zone_id = var.zone_id
-}
-
 resource "cloudflare_record" "terraform_managed_resource_276616cd19eb85ca88be06c734bcd458" {
   name    = "jammehcow.co.nz"
   proxied = true
