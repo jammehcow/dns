@@ -60,15 +60,6 @@ resource "cloudflare_record" "terraform_managed_resource_b0b16d7663a3427a08c6bc8
   zone_id = var.zone_id
 }
 
-resource "cloudflare_record" "terraform_managed_resource_2bf2d8137f1c6388d6e0c623d39525e3" {
-  name    = "teapot"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  value   = "203.94.59.106"
-  zone_id = var.zone_id
-}
-
 resource "cloudflare_record" "terraform_managed_resource_885858db9a65132d7fb6909a3a0b188d" {
   name    = "tst0.mc"
   proxied = false
