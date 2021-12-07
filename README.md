@@ -1,2 +1,3 @@
-# dns-terraform
-DNS configuration using Terraform for jammehcow.co.nz
+# DNS Terraform Configurations
+
+This repo hold all of my personal DNS configurations as terraform configs.
