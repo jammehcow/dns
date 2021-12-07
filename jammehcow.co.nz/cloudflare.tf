@@ -187,24 +187,6 @@ resource "cloudflare_record" "terraform_managed_resource_e118860154391362eee5089
   }
 }
 
-resource "cloudflare_record" "terraform_managed_resource_77e8a208da12894c23cf177493ec68ed" {
-  name     = "_minecraft._tcp"
-  priority = 1
-  proxied  = false
-  ttl      = 1
-  type     = "SRV"
-  zone_id  = "029b51bcc15f93e0effeac880578bde0"
-  data {
-    name     = "jammehcow.co.nz"
-    port     = 25565
-    priority = 1
-    proto    = "_tcp"
-    service  = "_minecraft"
-    target   = "mc0.jammehcow.co.nz"
-    weight   = 1
-  }
-}
-
 resource "cloudflare_record" "terraform_managed_resource_0110671187d7f6c2a2adc4c57bc588f4" {
   name    = "_110._tcp.mail"
   proxied = false
