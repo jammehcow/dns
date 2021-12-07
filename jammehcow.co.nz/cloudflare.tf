@@ -78,15 +78,6 @@ resource "cloudflare_record" "terraform_managed_resource_6b8e1f5079e2fcc9611a1e3
   zone_id = var.zone_id
 }
 
-resource "cloudflare_record" "terraform_managed_resource_b23ef37750485433b93ba9083145c4f8" {
-  name    = "ocftb"
-  proxied = false
-  ttl     = 1
-  type    = "AAAA"
-  value   = "2001:19f0:6001:8a5:5400:03ff:fe3b:69ac"
-  zone_id = var.zone_id
-}
-
 resource "cloudflare_record" "terraform_managed_resource_1500d18916973b17ce9801b86c9def83" {
   name    = "ret-prd.mc"
   proxied = true
