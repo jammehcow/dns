@@ -33,15 +33,6 @@ resource "cloudflare_record" "terraform_managed_resource_7244933211ee84ba2c729ca
   zone_id = var.zone_id
 }
 
-resource "cloudflare_record" "terraform_managed_resource_9c4beb81a4aa6c0edaff2687ca4f06ca" {
-  name    = "scp"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  value   = "45.79.91.53"
-  zone_id = var.zone_id
-}
-
 resource "cloudflare_record" "terraform_managed_resource_4feb05d412e360b2855be3f78e4f2a2c" {
   name    = "feelsbirthdayman"
   proxied = true
