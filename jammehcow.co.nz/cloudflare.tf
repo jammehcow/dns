@@ -53,10 +53,10 @@ resource "cloudflare_record" "terraform_managed_resource_2e545f693a9682f1caa06b8
 
 resource "cloudflare_record" "terraform_managed_resource_b0b16d7663a3427a08c6bc8bae3260b1" {
   name    = "live.retmc"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "A"
-  value   = "172.105.179.229"
+  value   = "45.77.191.40"
   zone_id = var.zone_id
 }
 
@@ -80,10 +80,10 @@ resource "cloudflare_record" "terraform_managed_resource_6b8e1f5079e2fcc9611a1e3
 
 resource "cloudflare_record" "terraform_managed_resource_1500d18916973b17ce9801b86c9def83" {
   name    = "live.retmc"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "AAAA"
-  value   = "2400:8907::f03c:92ff:feff:81ce"
+  value   = "2001:19f0:ac01:912:0ec4:7aff:fe8f:687a"
   zone_id = var.zone_id
 }
 
